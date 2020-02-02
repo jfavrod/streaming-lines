@@ -7,7 +7,7 @@ especially when reading large files - some files are too large to do
 this. This package enables users to efficiently process large text
 files line-by-line.
 
-NOTE: streamlines only handles utf-8 encode text.
+NOTE: streaming-lines only handles utf-8 encode text.
 
 Install
 -------
