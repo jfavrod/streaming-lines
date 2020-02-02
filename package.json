@@ -2,11 +2,19 @@
   "name": "streamlines",
   "description": "Efficiently process text files line-by-line.",
   "version": "0.1.0",
+  "author": {
+    "email": "mail@jasonfavrod.com",
+    "name": "Jason Favrod"
+  },
   "scripts": {
     "build": "npm run test && npm run clean && npm run compile",
     "clean": "rm -rf lib",
     "compile": "tsc",
     "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jfavrod/streamlines.git"
   },
   "devDependencies": {
     "@types/mocha": "^7.0.1",
