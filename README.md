@@ -14,7 +14,7 @@ Install
 Install the package, including TypeScript declarations.
 
 ```
-npm i streamlines
+npm i streaming-lines
 ```
 
 Use
