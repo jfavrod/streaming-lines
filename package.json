@@ -1,5 +1,5 @@
 {
-  "name": "streamlines",
+  "name": "streaming-lines",
   "description": "Efficiently process text files line-by-line.",
   "version": "0.1.0",
   "author": {

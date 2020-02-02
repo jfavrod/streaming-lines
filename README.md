@@ -1,5 +1,5 @@
-streamlines
-===========
+streaming-lines
+===============
 Efficiently process text files line-by-line.
 
 Streams are more efficient than reading an entire file into memory, 
@@ -24,7 +24,7 @@ line in the file.
 
 ### Using JavaScript
 ```javascript
-const readlines = require('streamlines').readlines;
+const readlines = require('streaming-lines').readlines;
 
 (async function () {
     await readlines(__dirname + '/myfile.txt', (line) => {
@@ -35,7 +35,7 @@ const readlines = require('streamlines').readlines;
 
 ### Using TypeScript
 ```typescript
-import { readlines } from 'streamlines';
+import { readlines } from 'streaming-lines';
 
 (async function () {
     await readlines(__dirname + '/myfile.txt', (line: string) => {
