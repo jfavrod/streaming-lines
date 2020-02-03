@@ -12,6 +12,12 @@
     "compile": "tsc",
     "test": "mocha -r ts-node/register test/**/*.test.ts"
   },
+  "keywords": [
+    "stream",
+    "streams",
+    "read lines",
+    "text file"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:jfavrod/streamlines.git"
