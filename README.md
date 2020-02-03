@@ -1,5 +1,8 @@
 streaming-lines
 ===============
+[![Build Status](https://travis-ci.org/jfavrod/streaming-lines.svg?branch=master)](https://travis-ci.org/jfavrod/streaming-lines)
+[![Requirements Status](https://requires.io/github/jfavrod/streaming-lines/requirements.svg?branch=master)](https://requires.io/github/jfavrod/streaming-lines/requirements/?branch=master)
+
 Efficiently process text files line-by-line.
 
 Streams are more efficient than reading an entire file into memory, 
