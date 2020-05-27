@@ -2,6 +2,7 @@
   "name": "streaming-lines",
   "description": "Efficiently process text files line-by-line.",
   "version": "0.1.4",
+  "main": "lib/index.js",
   "author": {
     "email": "mail@jasonfavrod.com",
     "name": "Jason Favrod"
