@@ -1,7 +1,8 @@
 import fs from 'fs';
 
+/** A callback for each time a line is read. */
 interface ICallback {
-    (line: string): any;
+    (line: string): unknown;
 }
 
 /**
